@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme{
+  --font-fredoka:"fredoka","serif";
+  --color-background:#5A1E76;
+  --color-main-box:#2B0040;
+  --color-X-box:#48D2FE;
+  --color-draw-box:#BCDBF9;
+  --color-O-box:#E2BE00;
+  --color-text:#000000;
+  --color-btn:#F4F6F5;
+  --color-btn-hover:#C5A0D7;
+  --color-tic-tac: #DCBF3F;
+  --color-tac:#72CFF9;
+  --color-grid-box:#43115B;
+  --color-grid-box-hover:#5A1E76;
+}
