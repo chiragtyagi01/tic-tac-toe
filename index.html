@@ -6,19 +6,22 @@
   <link href="./src/style.css" rel="stylesheet">
   <link rel="shortcut icon" href="./assets/favicon1.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>TIC-TAC-TOE</title>
 </head>
+
 <body class="bg-background w-full  flex justify-center items-center relative box-border m-0 p-0 select-none">
-   <div class="title fixed bottom-0 left-0 font-fredoka leading-[95px] text-[10rem] font-bold tracking-wide flex flex-col -space-y-10  z-50 ">
-      <p class="text-tic-tac   z-10">tic.</p>
-      <p class="text-tac  z-20">tac.</p>
+  <!-- container -->
+  <div class="container flex justify-center items-center ">
+        <!-- title -->
+    <div class="title fixed  md:left-0 md:right-0 z-50 pointer-events-none font-fredoka font-bold tracking-wide leading-[95px] text-[6rem] lg:text-[10rem] flex flex-row md:flex-col md:-space-y-10 items-center md:items-start top-0 md:top-auto md:bottom-0">
+      <p class="text-tic-tac z-10">tic.</p>
+      <p class="text-tac     z-20">tac.</p>
       <p class="text-tic-tac z-10">toe.</p>
     </div>
-  <div class="container flex justify-center items-center ">
-   
-    <div class="box  bg-main-box pt-10 p-20 flex flex-col justify-center items-center rounded-2xl mt-28">
+    <!-- box -->
+    <div class="box  bg-main-box pt-10 p-20 flex flex-col justify-center items-center rounded-2xl mt-32">
       <!-- score-cards -->
        <div class="score-cards flex justify-between text-text gap-4 font-fredoka font-medium ">
           <div class="player-x bg-X-box  w-[8rem] h-[5rem] flex flex-col justify-center items-center p-4 rounded-lg hover:scale-x-[80%] hover:brightness-90 transition-transform duration-200 ease-in-out hover:scale-y-[80%] cursor-pointer  active:brightness-75 " data-sound="https://pop.popingroup.com/wp-content/uploads/2023/11/piano_do.mp3">
